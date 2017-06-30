@@ -9,14 +9,14 @@
   },
    {
     "ParameterKey": "KeyName",
-    "ParameterValue": "key"
+    "ParameterValue": "centos2"
    },
   {
      "ParameterKey": "SubnetId",
-    "ParameterValue": "subnet-bb8c51e0"
+    "ParameterValue": "subnet-88c849f3"
   },
   {
     "ParameterKey": "InstanceSecurityGroup",
-    "ParameterValue": "sg-4519203e"
+    "ParameterValue": "sg-626d620b"
   }
 ]
