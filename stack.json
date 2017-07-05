@@ -76,7 +76,7 @@
 							"sudo chmod 400 pthrinathraj.pem\n",
 							"sudo chef-client -o recipe[test::docs_example]\n",
 							"cd /opt/tomcat_docs/webapps\n",
-							"sudo wget http://18.220.36.104:8081/nexus-2.14.4-03/service/local/repositories/releases/content/org/sonatype/mavenbook/simpleweb/simple-webapp/1.0.0/simple-webapp-1.0.0.war\n",
+							"sudo wget http://34.212.86.52:8081/nexus/content/repositories/releases/formac/\n",
 							"sudo service tomcat_docs restart\n",
 							"/opt/aws/bin/cfn-signal -e 0 -r \"ChefClient setup complete\" '", {
 							"Ref": "WaitHandle"
