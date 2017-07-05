@@ -72,7 +72,7 @@
 							"cd /etc/chef\n",
 							"wget https://s3-us-west-2.amazonaws.com/chefservercertificates/client.rb\n",
 							"wget https://s3-us-west-2.amazonaws.com/chefservercertificates/knife.rb\n",
-							"wget 	https://s3-us-west-2.amazonaws.com/chefservercertificates/pthrinathraj.pem\n",
+							"wget https://s3-us-west-2.amazonaws.com/chefservercertificates/pthrinathraj.pem\n",
 							"sudo chmod 400 pthrinathraj.pem\n",
 							"sudo chef-client -o recipe[test::docs_example]\n",
 							"cd /opt/tomcat_docs/webapps\n",
