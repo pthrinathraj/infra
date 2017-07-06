@@ -76,7 +76,7 @@
 							"sudo chmod 400 pthrinathraj.pem\n",
 							"sudo chef-client -o recipe[test::docs_example]\n",
 							"cd /opt/tomcat_docs/webapps\n",
-							"sudo wget http://34.212.86.52:8081/nexus/content/repositories/releases/formac/\n",
+							"sudo wget http://34.212.86.52:8081/nexus/service/local/repositories/releases/content/com/mkyong/CounterWebApp/2.0/CounterWebApp-2.0.war\n",
 							"sudo service tomcat_docs restart\n",
 							"/opt/aws/bin/cfn-signal -e 0 -r \"ChefClient setup complete\" '", {
 							"Ref": "WaitHandle"
